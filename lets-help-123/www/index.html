@@ -1,97 +1,413 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+<!DOCTYPE html>
+<html lang="en">
 
-
-<html>
 <head>
- <link href="css/main.css" rel="stylesheet">
- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
-
+    <meta charset="utf-8">
+    <title>SASE NERC 2019</title>
+    <link rel="stylesheet" type="text/css" href="css/frontpage.css">
+    <link rel="stylesheet" type="text/css" href="css/bio.css">
+    <link rel="stylesheet" type="text/css" href="css/logos.css">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="icon" href="images/logo.png">
+    <link href="https://mdbootstrap.com/previews/docs/latest/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="css/sponsors.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Nunito+Sans' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-<div class="container">
- <h3 class=" text-center">Let's Help!</h3>
- <div class="messaging">
-   <div class="inbox_msg">
-     <div class="inbox_people">
-       <div class="headind_srch">
-         <div class="recent_heading">
-           <h4>Recent</h4>
-         </div>
-         <div class="srch_bar">
-           <div class="stylish-input-group">
-             <input type="text" class="search-bar"  placeholder="Search" >
-             <span class="input-group-addon">
-               <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
-               </span> </div>
-         </div>
-       </div>
-       <div class="inbox_chat">
-         <div class="chat_list">
-           <div class="chat_people">
-             <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png"> </div>
-             <div class="chat_ib">
-               <h5>Mr. Bot <span class="chat_date">Dec 25</span></h5>
-               <p>Test, which is a new approach to have all solutions
-                 astrology under one roof.</p>
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-     <div class="mesgs">
-       <div class="msg_history">
-         <div class="incoming_msg">
-           <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png"> </div>
-           <div class="received_msg">
-             <div class="received_withd_msg">
-               <p>Test which is a new approach to have all
-                 solutions</p>
-               <span class="time_date"> 11:01 AM    |    June 9</span></div>
-           </div>
-         </div>
-         <div class="outgoing_msg">
-           <div class="sent_msg">
-             <p>Test which is a new approach to have all
-               solutions</p>
-             <span class="time_date"> 11:01 AM    |    June 9</span> </div>
-         </div>
-         <div class="incoming_msg">
-           <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png"> </div>
-           <div class="received_msg">
-             <div class="received_withd_msg">
-               <p>Test, which is a new approach to have</p>
-               <span class="time_date"> 11:01 AM    |    Yesterday</span></div>
-           </div>
-         </div>
-         <div class="outgoing_msg">
-           <div class="sent_msg">
-             <p>Apollo University, Delhi, India Test</p>
-             <span class="time_date"> 11:01 AM    |    Today</span> </div>
-         </div>
-         <div class="incoming_msg">
-           <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png"> </div>
-           <div class="received_msg">
-             <div class="received_withd_msg">
-               <p>We work directly with our designers and suppliers,
-                 and sell direct to you, which means quality, exclusive
-                 products, at a price anyone can afford.</p>
-               <span class="time_date"> 11:01 AM    |    Today</span></div>
-           </div>
-         </div>
-       </div>
-       <div class="type_msg">
-         <div class="input_msg_write">
-           <input type="text" class="write_msg" placeholder="Type a message" />
-           <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-         </div>
-       </div>
-     </div>
-   </div>
+<!-- Main navigation -->
+<header id="top">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <div class="container">
+            <div id="logos">
+                <a href="http://www.umdsase.org"><img id="logo" class="navbar-brand" src="images/logo.png"/></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+                    aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-7"
+                 style="font-family: 'Nunito Sans', sans-serif">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bot">Chat Bot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sponsors">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Full Page Intro -->
+    <div class="view jarallax" data-jarallax='{"speed": 0.2}'
+         style="background-size: cover; background: url('images/background.jpg') no-repeat center center;">
+        <!-- Mask & flexbox options-->
+        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+            <!-- Content -->
+            <div class="container" style="font-family: 'Nunito Sans', sans-serif">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12 mb-4 white-text text-center" id="frontpagebox">
+                        <div class="upper">
+                            <p class="h1-responsive white-text mb-0 pt-md-5 pt-5 wow fadeInDown hometext"
+                               data-wow-delay="0.3s"
+                               style="font-weight: 200; font-size: 65px; letter-spacing: 0; text-shadow: 1px 1px 2px #000000;">
+                                Let's Help!</p>
+                        </div>
+                        <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+                        <div class="lower">
+                            <div class="wow zoomIn timer" data-wow-delay="0.4s" style="margin-top: 30px">
+                                <div class="block">
+                                    <div class="timer">
+                                        <div class="middle">
+                                            <p style="font-weight: 300; font-size: 30px;">
+                                                Team Kalimotxo</p>
+                                            <p id="demo" style="font-size:25px; font-weight:300"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="btn btn-outline-white wow fadeInDown"
+                               href="#bot"
+                               data-wow-delay="0.4s">HELP ME!!!</a>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Content -->
+        </div>
+        <!-- Mask & flexbox options-->
+    </div>
+    <!-- Full Page Intro -->
+</header>
+
+<main id="about">
+    <!-- About -->
+    <div class="view jarallax" data-jarallax='{"speed": 0.2}'
+         style=" height: 100vh; background: url('images/bg1.jpg') no-repeat;">
+        <!-- Mask & flexbox options-->
+        <div class="mask rgba-black-light d-flex white-text">
+            <div class="container"
+                 style="font-family: 'Nunito Sans', sans-serif;">
+                <br><br><br>
+                <div class="page-header" id="about-text" style="margin-top: 10%; text-shadow: 2px 2px 4px #000000;">
+                    <h1 style="letter-spacing: 0;text-align: center;">"HackGT 5: Dare To Venture"</h1>
+                    <hr style="border-color: white">
+                    <p style="text-align: center">This is how we built</p>
+                    <h1 style="letter-spacing: 0; text-align: center;">About Let's Help!</h1>
+                    <hr style="border-color: white">
+                    <p style="text-align: center">
+                        This is more details of how we built
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="venue">
+        <div class="col-md-6 text-center">
+            <h2>The Venue</h2>
+            <p>This year's conference will be located in The Hotel. Built in late 2017, The Hotel sits straight
+                across the street from the main entrance to the University of Maryland. It is also
+                1 mile from the nearest metro station, and 12 miles from the National Mall. </p>
+            <p>Featuring floor-to-ceiling windows, the bright rooms have free Wi-Fi, flat-screen TVs, and
+                coffeemakers. Upgraded rooms include access to an executive lounge with perks such as breakfast and
+                hors d'oeuvres, while studio and 1-bedroom suites add kitchenettes.</p>
+            <p>There's a casual restaurant, a Greek-inspired eatery, and a low-key lobby bar, as well as a pizzeria
+                and an all-day bagel shop. Other amenities include a 24-hour gym, an indoor pool & a luxe spa.</p>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <a class="btn-floating blue-gradient accent-1"><i class="fa fa-map-marker"></i></a>
+                    <p>7777 Baltimore Ave, College Park, MD 20740</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn-floating blue-gradient accent-1"><i class="fa fa-globe"></i></a>
+                    <a href="https://www.thehotelumd.com/">thehotelumd.com</a>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn-floating blue-gradient accent-1"><i class="fa fa-phone"></i></a>
+                    <p>(301) 825-5020</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <!--Google map-->
+            <div id="map-container-5" class="z-depth-1-half map-container" style="height: 450px"></div>
+            <br>
+        </div>
+    </div>
+    <!-- End About -->
+    <!-- Begin Team -->
+    <div class="container">
+        <div class="page-header" id="team">
+            <br><br><br>
+            <h1 style="letter-spacing: 0; font-family: 'Nunito Sans', sans-serif">Meet Our Team</h1>
+            <hr>
+        </div>
+
+        <div class="container bootstrap snippet" style="padding: 0;">
+            <div class="row profile">
+
+                <!-- Atchima Klomkaew -->
+                <div class="card">
+                    <div class="img-box">
+                        <img class="img-thumbnail" src="images/atchima.jpg" alt="">
+                        <p>
+                            <strong>Major:</strong> <em>Biochemistry</em><br>
+                            <strong>Year:</strong> <em>2019</em><br>
+                            <em class="bio">
+                                "Something about Lucian"
+
+                            </em>
+                        </p>
+                        <ul class="text-center">
+                            <li><a href="https://www.facebook.com/sunnysunshine96"><i
+                                    class="fa fa-facebook fa-3x social personal-fb"> </i></a></li>
+                            <li><a href="https://www.linkedin.com/in/sunny-jung-130306a8/"><i
+                                    class="fa fa-linkedin fa-3x social linkedin"> </i></a></li>
+                            <li><a href="mailto:sunmjung105@gmail.com"><i
+                                    class="fa fa-envelope fa-3x social personal-em"> </i></a></li>
+                        </ul>
+                    </div>
+                    <h3>Atchima Klomkaew</h3>
+                    <hr style="margin: 5px 50px;">
+                    <p>Co-Chair</p>
+                </div>
+
+                <!-- Michael Liu -->
+                <div class="card">
+                    <div class="img-box">
+                        <img class="img-thumbnail" src="images/mike.jpg" alt="">
+                        <p>
+                            <strong>Major:</strong> <em>Computer Science</em><br>
+                            <strong>Minor:</strong> <em>Technology Entrepreneurship</em><br>
+                            <strong>Year:</strong> <em>2019</em><br>
+                            <em class="bio">"I have attended 3 National and 2 regional conferences, and all have been
+                                instrumental in helping me develop professionally and meet a crazy number of awesome
+                                people!"</em>
+                        </p>
+                        <ul class="text-center">
+                            <li><a href="https://www.facebook.com/micosoup"><i
+                                    class="fa fa-facebook fa-3x social personal-fb"> </i></a></li>
+                            <li><a href="https://www.linkedin.com/in/michael-liu-9964a4a0/"><i
+                                    class="fa fa-linkedin fa-3x social linkedin"> </i></a></li>
+                            <li><a href="mailto:edgarzhu22@hotmail.com"><i
+                                    class="fa fa-envelope fa-3x social personal-em"> </i></a></li>
+                        </ul>
+                    </div>
+                    <h3>Michael Liu</h3>
+                    <hr style="margin: 5px 50px;">
+                    <p>Volunteer</p>
+                </div>
+
+                <!-- Lucian Lum -->
+                <div class="card">
+                    <div class="img-box">
+                        <img class="img-thumbnail" src="images/lucian.jpg" alt="">
+                        <p>
+                            <strong>Major:</strong> <em>Biochemistry</em><br>
+                            <strong>Year:</strong> <em>2019</em><br>
+                            <em class="bio">
+                                "Something about Lucian"
+
+                            </em>
+                        </p>
+                        <ul class="text-center">
+                            <li><a href="https://www.facebook.com/sunnysunshine96"><i
+                                    class="fa fa-facebook fa-3x social personal-fb"> </i></a></li>
+                            <li><a href="https://www.linkedin.com/in/sunny-jung-130306a8/"><i
+                                    class="fa fa-linkedin fa-3x social linkedin"> </i></a></li>
+                            <li><a href="mailto:sunmjung105@gmail.com"><i
+                                    class="fa fa-envelope fa-3x social personal-em"> </i></a></li>
+                        </ul>
+                    </div>
+                    <h3>Lucian Lum</h3>
+                    <hr style="margin: 5px 50px;">
+                    <p>Co-Chair</p>
+                </div>
+
+                <!-- Edgar Zhu -->
+                <div class="card">
+                    <div class="img-box">
+                        <img class="img-thumbnail" src="images/edgar.jpg" alt="">
+                        <p>
+                            <strong>Major:</strong> <em>Public Health Science</em><br>
+                            <strong>Year:</strong> <em>2019</em><br>
+                            <em class="bio">“I’m a Public Health Science major at University of Maryland, College
+                                Park
+                                on a Pre-PA health track. I’m excited to be the Co-Chair with Sunny to make this
+                                conference a great experience for everyone!”</em>
+                        </p>
+                        <ul class="text-center">
+                            <li><a href="https://www.facebook.com/yuna.oh21"><i
+                                    class="fa fa-facebook fa-3x social personal-fb"> </i></a></li>
+                            <li><a href="mailto:#"><i
+                                    class="fa fa-envelope fa-3x social personal-em"> </i></a></li>
+                        </ul>
+                    </div>
+                    <h3>Edgar Zhu</h3>
+                    <hr style="margin: 5px 50px;">
+                    <p>Co-Chair</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Eboard -->
+
+    <!-- Sponsors -->
+    <div style="background-color: #e8e8e8">
+        <div class="container" style="font-family: 'Nunito Sans', sans-serif">
+            <div class="page-header" id="sponsors">
+                <br><br><br>
+                <h1 style="letter-spacing: 0;">Sponsors</h1>
+                <hr>
+                <p style="font-size: 120%">These are all the organizations who made this event possible.</p>
+            </div>
+            <br>
+            <div class="grid">
+
+                <!-- Grid row 1 -->
+                <div class="row">
+
+                    <!-- Grid column 1 -->
+                    <div class="col-md-4 main">
+                        <!-- Google -->
+                        <div class="sponsors top-tier">
+                            <a href="https://www.google.com"><img style="width: 200px" src="images/google.svg"/></a>
+                            <div style="width: 100%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Grid column 2 -->
+                    <div class="col-md-4 main">
+                        <!-- Microsoft -->
+                        <div class="sponsors top-tier">
+                            <a href="https://www.microsoft.com"><img style="width: 200px"
+                                                                     src="images/microsoft.png"/></a>
+                            <div style="width: 100%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Grid column 3 -->
+                    <div class="col-md-4 main">
+                        <!-- Finra -->
+                        <div class="sponsors top-tier">
+                            <a href="https://www.finra.com"><img style="width: 200px" src="images/finra.png"/></a>
+                            <div style="width: 100%"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <!-- Grid row 2 -->
+                <div class="row">
+
+                    <!-- Grid column 1 -->
+                    <div class="col-md-4 main">
+                        <!-- Capital One -->
+                        <div class="sponsors top-tier">
+                            <a href="https://www.capitalone.com"><img style="width: 200px" src="images/capitalOne.png"/></a>
+                            <div style="width: 100%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Grid column 2 -->
+                    <div class="col-md-4 main">
+                        <!-- Goldman Sachs -->
+                        <div class="sponsors top-tier">
+                            <a href="https://www.goldmansachs.com"><img style="width: 200px" src="images/goldman.png"/></a>
+                            <div style="width: 100%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Grid column 3 -->
+                    <div class="col-md-4 main">
+                        <!-- Robinhood -->
+                        <div class="sponsors top-tier">
+                            <a href="https://www.robinhood.com"><img style="width: 200px"
+                                                                     src="images/robinhood.png"/></a>
+                            <div style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <!-- Sponsors -->
 
 
- </div></div>
+</main>
+
+<!-- Begin Footer -->
+<section class="footer-bottom" id="connect">
+    <div class="container">
+        <div class="text-center center-block">
+            <a href="https://www.facebook.com/saseumcp/" style="margin-right: 30px;"><i id="social-fb"
+                                                                                        class="fa fa-facebook fa-3x social"> </i></a>
+            <a href="https://www.instagram.com/saseumd/" style="margin-right: 30px"><i id="social-ig"
+                                                                                       class="fa fa-instagram fa-3x social"> </i></a>
+            <a href="mailto:sasenerc2019@gmail.com"><i id="social-em"
+                                                       class="fa fa-envelope fa-3x social"> </i></a>
+        </div>
+    </div>
+</section>
+<!-- End Footer -->
+
+
+<!-- SCRIPTS -->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYh7hnxtPS7EzMmncKMQy129IsCGfH4cM&callback=initMap"
+        type="text/javascript"></script>
+<script src="js/map.js"></script>
+<!-- JQuery -->
+<script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/jquery-3.3.1.min.js"></script>
+<!-- Tooltips -->
+<script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/mdb.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/aws-cognito-sdk.min.js"></script>
+<script src="js/vendor/amazon-cognito-identity.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/cognito-auth.js"></script>
+<script src="js/index.js"></script>
+
+
 </body>
+
 </html>
