@@ -30,48 +30,48 @@ public class Nessie
         listId = new List<string>();
         nameToCustomer = new Dictionary<string, Customer>();
 
-        //idToCustomer = getAllCustomers();
-        //idToAccount = getAllAccounts();
+        idToCustomer = getAllCustomers();
+        idToAccount = getAllAccounts();
 
-        //foreach(KeyValuePair<string, Customer> kv in idToCustomer){
-        //    string id = kv.Key;
-        //    Customer c = kv.Value;
+        foreach(KeyValuePair<string, Customer> kv in idToCustomer){
+            string id = kv.Key;
+            Customer c = kv.Value;
 
-        //    c.FullName = c.FirstName + " " + c.LastName;
-        //    //Console.WriteLine("Id = " + id + "; fullName = " + c.FullName);
+            c.FullName = c.FirstName + " " + c.LastName;
+            //Console.WriteLine("Id = " + id + "; fullName = " + c.FullName);
 
-        //    if(!nameToCustomer.ContainsKey(c.FullName)){
-        //        nameToCustomer.Add(c.FullName, c);
-        //    }
-        //}
+            if(!nameToCustomer.ContainsKey(c.FullName)){
+                nameToCustomer.Add(c.FullName, c);
+            }
+        }
 
-        //idToBill = getAllBills();
-        //idToDeposit = getAllDeposits();
-        //idToWithdrawal = getAllWithdrawals();
+        idToBill = getAllBills();
+        idToDeposit = getAllDeposits();
+        idToWithdrawal = getAllWithdrawals();
     }
 
     public bool makeDeposit(Deposit d){
         bool ret = false;
         Console.WriteLine("Making a deposit...");
 
-        var client = new RestClient(link + "accounts/" + d.id + "/deposits?key=" + key);
+        var client = new RestClient(link + "accounts/" + d.idInput + "/deposits?key=" + key);
         var request = new RestSharp.RestRequest(Method.POST);
         request.AddHeader("Content-Type", "application/json");
 
-        string jsonBody = "{\n\"medium\": \"" + d.medium +
+        string jsonBody = "{\n\"medium\": \"" + d.mediumInput +
                                                  "\",\"amount\": " + d.amountInput;
         if(d.transactionDate != ""){
             jsonBody += ",\"transaction_date\": \"" + d.transactionDate + "\"";
         }
 
-        if (d.status != "")
+        if (d.statusInput != "")
         {
-            jsonBody += ",\"status\": \"" + d.status + "\"";
+            jsonBody += ",\"status\": \"" + d.statusInput + "\"";
         }
 
-        if (d.description != "")
+        if (d.descriptionInput != "")
         {
-            jsonBody += ",\"description\": \"" + d.description + "\"";
+            jsonBody += ",\"description\": \"" + d.descriptionInput + "\"";
         }
 
         jsonBody += "}";
@@ -95,25 +95,25 @@ public class Nessie
         bool ret = false;
         Console.WriteLine("Making a withdrawal...");
 
-        var client = new RestClient(link + "accounts/" + d.id + "/withdrawals?key=" + key);
+        var client = new RestClient(link + "accounts/" + d.idInput + "/withdrawals?key=" + key);
         var request = new RestSharp.RestRequest(Method.POST);
         request.AddHeader("Content-Type", "application/json");
 
-        string jsonBody = "{\n\"medium\": \"" + d.medium +
+        string jsonBody = "{\n\"medium\": \"" + d.mediumInput +
                                                  "\",\"amount\": " + d.amountInput;
         if (d.transactionDate != "")
         {
             jsonBody += ",\"transaction_date\": \"" + d.transactionDate + "\"";
         }
 
-        if (d.status != "")
+        if (d.statusInput != "")
         {
-            jsonBody += ",\"status\": \"" + d.status + "\"";
+            jsonBody += ",\"status\": \"" + d.statusInput + "\"";
         }
 
-        if (d.description != "")
+        if (d.descriptionInput != "")
         {
-            jsonBody += ",\"description\": \"" + d.description + "\"";
+            jsonBody += ",\"description\": \"" + d.descriptionInput + "\"";
         }
 
         jsonBody += "}";

@@ -27,22 +27,22 @@ public class Deposit
     [JsonProperty("type")]
     public string Type { get; set; }
 
-    public string id;
-    public string medium;  // balance or rewards
+    public string idInput;
+    public string mediumInput;  // balance or rewards
     public double amountInput;
-    public string status;  // pending, cancelled, completed
-    public string description;
+    public string statusInput;  // pending, cancelled, completed
+    public string descriptionInput;
     public string transactionDate; // yyyy-mm-dd
 
     public Deposit(){
         // mandatory
-        id = "";
-        medium = "";
+        idInput = "";
+        mediumInput = "";
         amountInput = 0.0;
 
         // optional
         transactionDate = "";
-        status = "";
-        description = "";
+        statusInput = "";
+        descriptionInput = "";
     }
 }

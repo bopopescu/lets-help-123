@@ -9,8 +9,8 @@ namespace NessieCalls
             Nessie n = new Nessie();
 
             Deposit d = new Deposit();
-            d.id = "5bcb8c20322fa06b67793e29";
-            d.medium = "balance";
+            d.idInput = "5bcb8c20322fa06b67793e29";
+            d.mediumInput = "balance";
             d.amountInput = 100.0;
             d.transactionDate = "1-2";
 
@@ -19,8 +19,8 @@ namespace NessieCalls
             }
 
             Withdrawal w = new Withdrawal();
-            w.id = "5bcb8c20322fa06b67793e29";
-            w.medium = "balance";
+            w.idInput = "5bcb8c20322fa06b67793e29";
+            w.mediumInput = "balance";
             w.amountInput = 100.0;
             w.transactionDate = "1-2";
 
