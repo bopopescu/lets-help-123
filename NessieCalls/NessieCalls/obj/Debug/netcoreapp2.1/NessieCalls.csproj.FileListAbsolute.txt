@@ -1,0 +1,11 @@
+/Users/Atchima/Desktop/SideProjects/Hackathon/HackGT18/NessieCalls/NessieCalls/bin/Debug/netcoreapp2.1/NessieCalls.deps.json
+/Users/Atchima/Desktop/SideProjects/Hackathon/HackGT18/NessieCalls/NessieCalls/bin/Debug/netcoreapp2.1/NessieCalls.runtimeconfig.json
+/Users/Atchima/Desktop/SideProjects/Hackathon/HackGT18/NessieCalls/NessieCalls/bin/Debug/netcoreapp2.1/NessieCalls.runtimeconfig.dev.json
+/Users/Atchima/Desktop/SideProjects/Hackathon/HackGT18/NessieCalls/NessieCalls/bin/Debug/netcoreapp2.1/NessieCalls.dll
+/Users/Atchima/Desktop/SideProjects/Hackathon/HackGT18/NessieCalls/NessieCalls/bin/Debug/netcoreapp2.1/NessieCalls.pdb
+/Users/Atchima/Desktop/SideProjects/Hackathon/HackGT18/NessieCalls/NessieCalls/obj/Debug/netcoreapp2.1/NessieCalls.csprojAssemblyReference.cache
+/Users/Atchima/Desktop/SideProjects/Hackathon/HackGT18/NessieCalls/NessieCalls/obj/Debug/netcoreapp2.1/NessieCalls.csproj.CoreCompileInputs.cache
+/Users/Atchima/Desktop/SideProjects/Hackathon/HackGT18/NessieCalls/NessieCalls/obj/Debug/netcoreapp2.1/NessieCalls.AssemblyInfoInputs.cache
+/Users/Atchima/Desktop/SideProjects/Hackathon/HackGT18/NessieCalls/NessieCalls/obj/Debug/netcoreapp2.1/NessieCalls.AssemblyInfo.cs
+/Users/Atchima/Desktop/SideProjects/Hackathon/HackGT18/NessieCalls/NessieCalls/obj/Debug/netcoreapp2.1/NessieCalls.dll
+/Users/Atchima/Desktop/SideProjects/Hackathon/HackGT18/NessieCalls/NessieCalls/obj/Debug/netcoreapp2.1/NessieCalls.pdb

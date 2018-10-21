@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{CA53DE1F-1342-457B-901D-3ABEC25ADC80}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NessieCalls/Withdrawal.cs">
+    <Files>
+      <File FileName="NessieCalls/Program.cs" Line="15" Column="13" />
+      <File FileName="NessieCalls/Deposit.cs" Line="30" Column="5" />
+      <File FileName="NessieCalls/ReturnResponse.cs" Line="10" Column="40" />
+      <File FileName="NessieCalls/Nessie.cs" Line="97" Column="9" />
+      <File FileName="NessieCalls/Withdrawal.cs" Line="45" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.NessieCalls PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
